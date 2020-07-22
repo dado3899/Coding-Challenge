@@ -1,0 +1,16 @@
+This one was solved fairly fast. (15ish minutes, I will try to keep more accurate times moving forward)
+
+Essentially for the solution with div it was just understanding how products worked, and using that
+knowledge to understand that the easiest way would be to calculate the product and use that number
+to then loop through and divide it. I could of imported math to calculate the product but I figured
+I'd try to solve these problems without importing anything unless absolutely necessary.
+
+The without Div solution was one of my first thoughts of solving the problem, but after reading the
+problem I decided I should do it with divs first. I simply figured you should go through each element
+of the list and remove that element, and then calculate the product. An issue I had realized was I
+initially had each loop be:
+for i in Original
+like I did for the first solution, but when it came to i!=j an issue arrized where it would not
+calculate the right number if there are a repeating numbers (like [10, 9, 11, 10, 9]) so I switched
+it to keep track of the index instead. This problem does not arise for the first solution as it doesn't
+matter if there is a repeating number, the division will work the same.
