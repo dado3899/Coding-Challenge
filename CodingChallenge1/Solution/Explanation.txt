@@ -1,0 +1,8 @@
+I initially thought of doing it in a nested for loop like this:
+
+for i in len(list)
+	for j in range(i, len(list))
+		if list[i]+list[j]==sum
+			return true
+
+Which would of been a quick and easy solution I got within a few minutes. However this would require more than one pass, so I spent a longer time thinking of a way to do it in one pass and remembered to store previous values in order to complete this problem in one pass.
