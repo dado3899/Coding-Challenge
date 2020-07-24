@@ -1,0 +1,6 @@
+After the nightmare that was the last problem this one was much easier (although it was labeled Hard by
+the people at Daily Coding Problem, definitely need to refresh myself on classes). It took me around 5
+minutes. I figured that if we know that the lowest possible starting (positive) int is 1 we can just
+add one to that if we find that value in the list. The problem comes when the list is unsorted, so using
+pythons handy sorted function we were able to easily solve that. This would of taken a bit more time if I
+had to come up with a sorting function but luckily python had me covered.

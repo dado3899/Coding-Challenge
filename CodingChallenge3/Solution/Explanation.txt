@@ -1,0 +1,3 @@
+This was by far the hardest one I have done, it took about an hour and a half and I could not figure out Deserialize
+for the life of me. After looking up different solution I know that my logic was right but I was having some weird
+type errors, overall I consider this problem I did a failure.
